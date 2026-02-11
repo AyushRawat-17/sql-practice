@@ -1,0 +1,35 @@
+Joins
+
+Joins- This is used to combine two tables in SQL by combining them by Columns side by side making tables wider (This requires Key Columns)
+
+SET Operators - This combine two tables by row  (This requires same Columns in tables)
+
+Types of Joins-
+
+1. Inner Join
+2. Full Join
+3. Left Join
+4. Right Join
+5. No Join
+
+Why Join? -
+
+This allow us to query the combined data of two tables if the information is in two different tables.
+
+When to use Join?-
+
+1. Recombine Data "Big Picture" - When the data has been segregated into multiple table we want to get the complete big picture of the data.
+2. Data Enrichment "Extra Info" - When we require some extra information from the another table for the final result.
+3. Check Existence "Filtering" - We use this to check the existence of the record in the another table for the filtering purpose. Purpose is to not  to combine the data. 
+
+Scenarios for combining table-
+
+1. Matching Data - Data that is common in both the tables.
+2. All Data - Data that exist in the one table whole.
+3. Unmatched Data - Oposite of the All Data. 
+
+Syntax for JOINS-
+
+SELECT * FROM A [Type] JOIN B ON A.Key = B.Key
+
+
